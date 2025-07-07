@@ -8,3 +8,5 @@ openai>=1.30.1
 easyocr>=1.7.1
 langdetect>=1.0.9
 language-tool-python>=2.7.1
+pdf2image>=1.17.0
+poppler-utils

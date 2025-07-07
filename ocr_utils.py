@@ -51,7 +51,7 @@ def ocr_with_gpt4_vision(image_path):
 
 # ===== Gemini Vision OCR =====
 def ocr_with_gemini(image_path):
-    model = genai.GenerativeModel("gemini-pro-vision")
+    model = genai.GenerativeModel("gemini-1.5-flash")
 
     with Image.open(image_path) as image:
         response = model.generate_content([
